@@ -7,7 +7,6 @@ use std::{
     net::{IpAddr, SocketAddr},
     ops::{Index, IndexMut},
     sync::Arc,
-    time::Instant,
 };
 
 use crate::association::Association;
@@ -22,6 +21,7 @@ use crate::{EcnCodepoint, Payload, Transmit};
 
 use bytes::Bytes;
 use fxhash::FxHashMap;
+use instant::Instant;
 use log::{debug, trace};
 use rand::{rngs::StdRng, SeedableRng};
 use slab::Slab;

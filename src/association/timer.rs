@@ -1,4 +1,4 @@
-use std::time::{Duration, Instant};
+use instant::{Duration, Instant};
 
 pub(crate) const ACK_INTERVAL: u64 = 200;
 const MAX_INIT_RETRANS: usize = 8;

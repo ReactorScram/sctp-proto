@@ -17,7 +17,7 @@
 #![allow(clippy::bool_to_int_with_if)]
 
 use bytes::Bytes;
-use std::time::Instant;
+use instant::Instant;
 use std::{
     fmt,
     net::{IpAddr, SocketAddr},

@@ -40,7 +40,7 @@ use std::collections::{HashMap, VecDeque};
 use std::net::{IpAddr, SocketAddr};
 use std::str::FromStr;
 use std::sync::Arc;
-use std::time::{Duration, Instant};
+use instant::{Duration, Instant};
 use thiserror::Error;
 
 pub(crate) mod state;

@@ -2,7 +2,7 @@ use crate::shared::AssociationId;
 
 use bytes::Bytes;
 use crc::{Crc, CRC_32_ISCSI};
-use std::time::Duration;
+use instant::Duration;
 
 /// This function is non-inline to prevent the optimizer from looking inside it.
 #[inline(never)]
